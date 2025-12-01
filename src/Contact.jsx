@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pic1 from "./assets/gojo.jpeg";
+import pic1 from "./assets/img.jpeg";
 import { NavLink } from "react-router-dom";
 
 const Contact = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pic1 from "./assets/gojo.jpeg";
+import pic1 from "./assets/img.jpeg";
 import { NavLink } from "react-router-dom";
 
 const Project = () => {
@@ -118,7 +118,7 @@ const Project = () => {
             <p className="flex">
               GitHub:{" "}
               <a
-                href="https://github.com/AmanHere1159/CodersCoffee"
+                href="https://github.com/AmanHere1159/CoddersCoffeeFrontend"
                 className="colorchange mt-0.5"
               >
                 {" "}

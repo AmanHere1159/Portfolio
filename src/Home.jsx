@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pic1 from "./assets/gojo.jpeg";
+import pic1 from "./assets/img.jpeg";
 import pic2 from "./assets/facebook.png";
 import pic3 from "./assets/instagram.png";
 import pic4 from "./assets/linkedin.png";
