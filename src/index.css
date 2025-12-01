@@ -1,0 +1,176 @@
+@import "tailwindcss";
+*{
+  font-family: Poppins,sans-serif;
+  body, html {
+  overflow-x: hidden;
+}
+.trans{
+  transition: ease-in 0.128s ;
+}
+}
+.radi{
+  /* margin-top: -20px; */
+  /* margin-left: 130px; */
+  border-radius: 210px;
+  height: 430px;
+  width: 370px;
+
+  /* z-index: 2px; */
+  /* position: fixed; */
+}
+.btnradi{
+   color: #32EAF1;
+   background-color: black;
+   border-color:  #32EAF1;
+  border-radius: 25px;
+  cursor: pointer;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+}
+.btnradi:hover{
+  background-color: #32EAF1;
+  color: black;
+  border-color:  #32EAF1;
+  border-radius: 25px;
+  cursor: pointer;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+  font-size: 17px;
+  scale: 2px;
+}
+.iconsize{
+  height: 34px;
+  width: 34px;
+  border-width: 2px;
+  border-color: #32EAF1;
+  border-radius: 30px;
+  /* background-color: #32EAF1; */
+  background-color: black;
+  /* background-color: transparent; */
+  transition: ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #32EAF1;
+}
+.iconsize:hover{
+  scale: 1.2;
+  background-color: #32EAF1;
+    transition: ease-in;
+}
+.imgsize{
+   height: 18px;
+   width: 18px;
+   color: #32EAF1;
+   background-color: #32EAF1;
+   /* background-color: transparent; */
+   border-radius: 4px;
+     transition: ease-in;
+}
+.imgsize:hover{
+  /* scale: 1.1; */
+    transition: ease-in;
+  /* background-color: #070707; */
+}
+/* .facebookradi{
+   height: 19px;
+   width: 19px;
+   border-width: 1px;
+   border-color: black;
+   border-radius: 20px;
+     transition: ease-in;
+} */
+.addingweight{
+  font-weight: 500;
+  font-size: 15px;
+}
+.namestyle{
+  color: #32EAF1;
+  font-size: 20px;
+  font-weight: 400;
+}
+.bluecolor{
+   color: #32EAF1;
+}
+.btnhover{
+background-color: #32EAF1;
+color: black;
+}
+.underlineborder{
+   color: #32EAF1;
+   /* background-color:#32EAF1; */
+   border-color:  #070707;
+   border-bottom-width: 2px;
+  cursor: pointer;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+}
+.underlineborder:hover{
+   color: #32EAF1;
+   /* background-color:#32EAF1; */
+   border-color:  #32EAF1;
+   border-bottom-width: 2px;
+  cursor: pointer;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+}
+.colorchange{
+  color: #867d7d;
+  font-size: 15px;
+}
+.colorchange:hover{
+  color: aliceblue;
+}
+.techSkills{
+  font-size: 20px;
+}
+.font16{
+  font-size: 15px;
+}
+
+/* animation starts form here */
+.animation{
+  position: relative;
+}
+.animation::before{ 
+  content: "Software Developer";
+  color: #32EAF1;
+  animation: words 20s infinite;
+}
+.animation::after{
+  content: "";
+  background-color: #070707;
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 3px solid black;
+  border-right: 8;
+  animation: cursor 0.6s infinite;
+}
+@keyframes cursor{
+  to{
+    border-left: 2px solid #32EAF1;
+  }
+}
+@keyframes words {
+  0% , 20%{
+    content: "Web Developer...";
+  }
+  21% , 40%{
+    content: "Software Developer...";
+  }
+  41% , 60%{
+    content: "Web Developer..";
+  }
+  61% , 80%{
+    content: "Youtuber..";
+  }
+  81% , 100%{
+    content: "Ridier...";
+  }
+}
+ /* animation ends here */
