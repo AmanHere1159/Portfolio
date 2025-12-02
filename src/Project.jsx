@@ -118,11 +118,11 @@ const Project = () => {
             <p className="flex">
               GitHub:{" "}
               <a
-                href="https://github.com/AmanHere1159/CoddersCoffeeFrontend"
+                href="portfolio-m2edyjvc5-aman-rawats-projects-386137ed.vercel.app"
                 className="colorchange mt-0.5"
               >
                 {" "}
-                https://github.com/AmanHere1159/CodersCoffee
+               portfolio-m2edyjvc5-aman-rawats-projects-386137ed.vercel.app
               </a>
             </p>
           </div>
