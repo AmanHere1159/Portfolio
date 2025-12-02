@@ -150,12 +150,12 @@ const Contact = () => {
           <div>
             💻 GitHub:{" "}
             <a
-              href="https://github.com/AmanHere1159/CodersCoffee"
+              href="https://github.com/AmanHere1159/Portfolio"
               target="blank"
               className="colorchange"
             >
               {" "}
-              https://github.com/AmanHere1159/CodersCoffee
+              https://github.com/AmanHere1159/Portfolio
             </a>
           </div>
         </h1>
