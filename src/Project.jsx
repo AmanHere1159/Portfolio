@@ -117,7 +117,8 @@ const Project = () => {
             </p>
             <p className="flex">
               GitHub:{" "}
-              <a
+              <a 
+              target="blank"
                 href="https://github.com/AmanHere1159/CoddersCoffeeFrontend"
                 className="colorchange mt-0.5"
               >
